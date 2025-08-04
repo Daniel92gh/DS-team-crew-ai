@@ -42,17 +42,19 @@ This project demonstrates an automated data science pipeline where AI agents col
 graph LR
     A[Planning] --> B[Data Analysis & Preprocessing]
     B --> C[Modeling & Evaluation]
- 
+```
+
 ## ✨ Installation  
 ```bash
 uv add  crewai langchain-openai pandas scikit-learn python-dotenv ipython
-
+```
 
 ## ⚙️ Setup 
 
 ### 1. **Create environment file**
 ```bash
 echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
+```
 
 ### 2. **Prepare data file**
 Ensure Supplement_Sales_Weekly.csv is in the project directory
