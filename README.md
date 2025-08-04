@@ -15,6 +15,8 @@ This project demonstrates an automated data science pipeline where AI agents col
 - ⚡ **Real-time Execution**: Code execution with immediate feedback
 - 📊 **Comprehensive Evaluation**: Multiple regression metrics and feature importance analysis
 
+<br>
+
 ## 🏗️ Architecture
 
 ### 🤖 Agents
@@ -36,6 +38,8 @@ This project demonstrates an automated data science pipeline where AI agents col
 - Analyzes feature importance
 - Uses NotebookCodeExecutor tool
 
+<br>
+
 ### 🔄 Workflow
 
 ```mermaid
@@ -43,6 +47,7 @@ graph LR
     A[Planning] --> B[Data Analysis & Preprocessing]
     B --> C[Modeling & Evaluation]
 ```
+<br>
 
 ## ✨ Installation  
 ```bash
@@ -62,6 +67,7 @@ Ensure Supplement_Sales_Weekly.csv is in the project directory
 ### 3. **Required modules**
 Make sure you have the notebookExecutor.py module available
 
+<br>
 
 ## 🔄 Automated Process
 
